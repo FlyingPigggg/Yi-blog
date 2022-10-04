@@ -1,0 +1,4 @@
+# Project exclude paths
+/Yi-admin/target/
+/Yi-framework/target/
+/Yi-myblog/target/
