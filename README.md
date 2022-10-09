@@ -8,23 +8,23 @@
 
 ## 技术栈：
 
-	项目采用多模块开发
+项目采用多模块开发
 
-		**SpringBoot**
+**SpringBoot**
 
-		**MybatisPlus**
+**MybatisPlus**
 
-		**SpringSecurity**
+**SpringSecurity**
 
-		**Swagger2**
+**Swagger2**
 
-		**Redis**
+**Redis**
 
-		**Vue**
+**Vue**
 
-		**ElementUI**
+**ElementUI**
 
-		**qiniuyun**
+**qiniuyun**
 
 
 
