@@ -1,4 +1,4 @@
-# 												个人博客
+# 									个人博客
 
 ## 项目简介：
 
@@ -8,23 +8,23 @@
 
 ## 技术栈：
 
-项目采用多模块开发
+	项目采用多模块开发
 
-**SpringBoot**
+		**SpringBoot**
 
-**MybatisPlus**
+		**MybatisPlus**
 
-**SpringSecurity**
+		**SpringSecurity**
 
-**Swagger2**
+		**Swagger2**
 
-**Redis**
+		**Redis**
 
-**Vue**
+		**Vue**
 
-**ElementUI**
+		**ElementUI**
 
-**qiniuyun**
+		**qiniuyun**
 
 
 
@@ -42,17 +42,17 @@
 
 - 系统管理：
 
-1. 用户管理
-2. 角色管理
-3. 菜单管理
-4. 权限管理
+	1. 用户管理
+	2. 角色管理
+	3. 菜单管理
+	4. 权限管理
 
 - 内容管理：
 
-1. 分类管理
-2. 标签管理
-3. 文章管理
-4. 友链管理
+	1. 分类管理
+	2. 标签管理
+	3. 文章管理
+	4. 友链管理
 
 
 
