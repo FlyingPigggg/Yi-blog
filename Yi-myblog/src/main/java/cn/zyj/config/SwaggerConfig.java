@@ -24,7 +24,7 @@ public class SwaggerConfig {
         Contact contact = new Contact("青蛙的池塘", "http://localhost:8080/", "1036634677@qq.com");
         return new ApiInfoBuilder()
                 .title("个人博客")
-                .description("博客文档")
+                .description("博客系统后台接口文档")
                 .contact(contact)   // 联系方式
                 .version("1.1.0")  // 版本
                 .build();

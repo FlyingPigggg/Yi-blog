@@ -2,6 +2,7 @@ package cn.zyj.service;
 
 import cn.zyj.domain.ResponseResult;
 import cn.zyj.domain.entity.Link;
+import cn.zyj.domain.vo.PageVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 
@@ -14,5 +15,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface LinkService extends IService<Link> {
 
     ResponseResult getAllLink();
+
+    PageVo selectLinkPage(Link link, Integer pageNum, Integer pageSize);
 }
 

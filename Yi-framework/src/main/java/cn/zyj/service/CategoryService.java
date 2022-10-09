@@ -2,7 +2,11 @@ package cn.zyj.service;
 
 import cn.zyj.domain.ResponseResult;
 import cn.zyj.domain.entity.Category;
+import cn.zyj.domain.vo.CategoryVo;
+import cn.zyj.domain.vo.PageVo;
 import com.baomidou.mybatisplus.extension.service.IService;
+
+import java.util.List;
 
 
 /**
@@ -14,5 +18,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface CategoryService extends IService<Category> {
 
     ResponseResult getCategoryList();
+
+    List<CategoryVo> listAllCategory();
+
+    PageVo selectCategoryPage(Category category, Integer pageNum, Integer pageSize);
 }
 
